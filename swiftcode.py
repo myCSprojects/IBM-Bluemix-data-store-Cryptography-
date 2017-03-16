@@ -8,13 +8,13 @@ import gnupg
 # Keystone v3 authentication url for IBM Public Cloud
 auth_url = 'https://identity.open.softlayer.com/v3'
 # Uniquely identifies an OpenStack project
-project_id = 'ad8420d15aa94e3e929edf6566604c64'
+project_id = ''
 # Uniquely identifies an OpenStack user
-user_id = 'b3977bb3a05c4e2bbee3b6283b91d6d2'
+user_id = ''
 # Swift region
 region_name = 'dallas'
 # Password for authentication
-password = 'Xge7]ZmY8bCnYI_m'
+password = ''
 # Get a Swift client connection object
 conn = swiftclient.Connection(
         key=password,
