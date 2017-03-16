@@ -1,12 +1,10 @@
 #Reference - https://www.ibm.com/developerworks/community/blogs/1b48459f-4091-43cb-bca4-37863606d989/entry/Use_Python_to_access_your_Bluemix_Object_Storage_Service_with_Keystone_v3?lang=en
-#Name: Jeetendra Patil
-#Assigment number - 1
-#Course CSE 6331   Cloud Computing.
+
 #First you'll need to import the swiftclient, and your Bluemix credentials to establish a swift connection  
 import swiftclient
 import gnupg
 # Keystone v3 authentication url for IBM Public Cloud
-auth_url = 'https://identity.open.softlayer.com/v3'
+auth_url = ''
 # Uniquely identifies an OpenStack project
 project_id = ''
 # Uniquely identifies an OpenStack user
